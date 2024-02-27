@@ -23,6 +23,7 @@ class FTextAssetEditorToolkit
 	, public FGCObject
 {
 public:
+	virtual FString GetReferencerName() const override;
 
 	/**
 	 * Creates and initializes a new instance.
